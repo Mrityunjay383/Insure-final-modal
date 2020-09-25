@@ -1,0 +1,288 @@
+body {
+  font-family: 'Karla', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4{
+  font-family: 'DM Serif Display', serif;
+}
+
+/*NavBar Section*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 8vh;
+  padding: 1% 10%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-li {
+  text-decoration: none;
+  padding: 0 20px;
+  color: #A09EA1;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.bg_mob_nav{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.nav-li:hover {
+  color: #4C4C4E;
+}
+
+.special-nav {
+  border: 2px solid #38383A;
+  padding: 10px 25px;
+  cursor: pointer;
+  color: #4C4C4E;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.special-nav:hover {
+  background-color: #4C4C4E;
+  color: white;
+}
+
+.icon {
+  display: none;
+  border: 3px solid black;
+  padding: 5px 3px;
+}
+
+.icon div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+
+/* Body Section 1 */
+.bodyS_1 {
+  background-color: #2C2640;
+  padding: 1% 10%;
+  color: #FFFEFF;
+  height: 92vh;
+}
+.heLine{
+  height: 2px;
+  width: 15%;
+  background-color: #dbdbdb;
+  position: relative;
+  top: -10vh;
+}
+.bodyS_1_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bodyS_1_txt h1 {
+  font-size: 5rem;
+}
+
+.bodyS_1_txt p {
+  margin: 35px 0;
+  font-size: 1.1rem;
+  color: #D5D0E3;
+}
+
+.bodyS_1_btn {
+  padding: 10px 25px;
+  border: 2px solid #FFFEFF;
+  cursor: pointer;
+  font-weight: 700;
+  width: 25vh;
+  text-align: center;
+}
+
+.bodyS_1_btn:hover {
+  background-color: #FFFEFF;
+  color: #2C2640;
+}
+
+.bodyS_1_Img_mob, .intro-left-mob, .intro-right-mob, .how-we-mob, .foo_pa_mob {
+  display: none;
+}
+
+.bodyS_1_Img {
+  text-align: right;
+  position: relative;
+  top: 10vh;
+}
+
+.bodyS_1_Img img {
+  width: 100%;
+}
+
+.intro-left {
+  position: absolute;
+  top: 72vh;
+  left: 0
+}
+
+.intro-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Body Section 2 */
+.bodyS_2 {
+  padding: 39vh 10% 0;
+}
+
+.bodyS_2 h2 {
+  font-size: 4.5rem;
+  color: #2B282F;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 0;
+}
+
+.feature_card h4 {
+  margin: 35px 0 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #2B282F;
+}
+
+.feature_card p {
+  color: #A2A1A4;
+  width: 87%;
+}
+
+/* Body Section 3 */
+.bodyS_3 {
+  color: white;
+  margin: 20vh 10%;
+  background-color: #2C2640;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7vh;
+}
+
+.bodyS_3 h2 {
+  font-size: 4rem;
+  width: 54%;
+}
+
+.bodyS_3_btn {
+  padding: 10px 25px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.bodyS_3_btn:hover {
+  background-color: white;
+  color: #2C2640;
+}
+
+.how-we {
+  position: absolute;
+  right: 10%;
+}
+
+/* footer section */
+.footer {
+  padding: 10vh 10%;
+  background-color: #FAFAFA;
+}
+.foo_pa{
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  top: 270vh;
+}
+.foo_pa_mob{
+  position: absolute;
+  left: 0;
+}
+.f-logo-social {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px;
+  position: relative;
+  z-index: 1;
+  ;
+}
+
+.f-social {
+  width: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+svg {
+  cursor: pointer;
+  fill: #837D88;
+}
+svg:hover{
+  fill: #28242C;
+}
+.f-info {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  position: relative;
+  z-index: 1;
+}
+
+.f-card-head {
+  color: #ACA9AD;
+  margin: 3vh 0;
+  font-weight: 700;
+}
+
+.f-card-body {
+  color: #4C4A54;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.f-card-body:hover {
+  text-decoration: underline;
+}
+
+/* Credits */
+.credits {
+  padding: 20px 10%;
+  font-size: 1.5rem;
+}
+
+.credits span {
+  font-family: 'DM Serif Display', serif;
+  color: #2C2640;
+  font-size: 2rem;
+}
+
+/* font-family: 'DM Serif Display', serif; */
+/* font-family: 'Karla', sans-serif; */

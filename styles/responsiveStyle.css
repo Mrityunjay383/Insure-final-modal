@@ -1,0 +1,287 @@
+@media screen and (max-width: 1231px) {
+  .bodyS_1_txt h1 {
+    font-size: 3.8rem;
+  }
+
+  .bodyS_1_txt p {
+    font-size: 0.9rem;
+  }
+
+  .foo_pa {
+    top: 281vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  /* NavBar Section */
+  .nav-lin {
+    position: absolute;
+    z-index: 2;
+    height: 92vh;
+    width: 100%;
+    left: 0;
+    top: 8vh;
+    flex-direction: column;
+    background-color: #25233A;
+    display: none;
+  }
+
+  .nav-ul {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nav-li {
+    opacity: 0;
+    color: white;
+  }
+
+  .bg_mob_nav {
+    display: inline-block;
+  }
+
+  .special-nav {
+    opacity: 0;
+    border-color: white;
+    color: white;
+    text-align: center;
+    width: 50%;
+  }
+
+  .special-nav:hover {
+    color: #25233A;
+    background-color: white;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bodyS_1 {
+    height: auto;
+    padding: 0 10% 15vh;
+  }
+
+  .bodyS_1_txt {
+    align-items: center;
+    text-align: center;
+    padding-top: 15vh;
+  }
+
+  .bodyS_1_Img, .intro-right, .intro-left, .how-we, .foo_pa {
+    display: none;
+  }
+
+  .bodyS_1_Img_mob {
+    display: block;
+    text-align: center;
+    padding: 0;
+    background-color: #2C2640;
+  }
+
+  .bodyS_1_Img_mob img {
+    max-width: 100%;
+  }
+
+  .bodyS_1_txt h1, .bodyS_1_txt p {
+    width: 75%;
+  }
+
+  .intro-left-mob {
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+
+  .intro-right-mob {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 117vh;
+  }
+
+  .heLine {
+    margin: auto;
+  }
+
+  .bodyS_2 h2 {
+    text-align: center;
+  }
+
+  .feature {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature_card {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .feature_card p {
+    margin: auto;
+    width: 50%;
+  }
+
+  .bodyS_3 {
+    flex-direction: column;
+  }
+
+  .bodyS_3 h2 {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .how-we-mob {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 345vh;
+  }
+  /* Edited to make it relative to the parent div(="footer") */
+  .foo_pa_mob {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .f-info {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .f-card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 606px) {
+  .header {
+    padding: 3% 10%;
+  }
+
+  .bodyS_1_txt h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .bodyS_1_txt p {
+    width: 100%;
+  }
+
+  .bodyS_1_Img_mob img {
+    width: 100%;
+  }
+.heLine{
+  width: 40%;
+  top: -7vh;
+}
+  .bodyS_2 h2 {
+    font-size: 3rem;
+  }
+
+  .feature_card p {
+    width: 75%;
+  }
+
+  .bodyS_3 h2 {
+    font-size: 2.4rem;
+  }
+
+  .how-we-mob {
+    top: 335vh;
+  }
+  .f-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .bodyS_1, .bodyS_2 {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+
+  .bodyS_1_txt h1 {
+    font-size: 2.5rem;
+  }
+
+  .bodyS_2 h2 {
+    font-size: 2.3rem;
+  }
+
+  .feature_card p {
+    width: 100%;
+  }
+
+  .bodyS_3 h2 {
+    font-size: 2rem;
+  }
+
+  .bodyS_3 {
+    margin: 15vh 4%;
+    padding: 7vh 2vh;
+  }
+
+  .how-we-mob {
+    top: 370vh;
+    right: 4%;
+  }
+
+  .footer {
+    padding: 10vh 4%;
+  }
+  .footer{
+    position: relative !important;
+  }
+  
+  .f-logo-social {
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+  }
+
+}
+
+/*Used to animate slider navbar*/
+.icon-active {
+  display: flex;
+}
+
+/*Used to animate small navbar links*/
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/*Used to animate top icon*/
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 1px);
+}
+
+.toggle .line2 {
+  display: none;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -1px);
+}
