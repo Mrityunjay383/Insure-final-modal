@@ -180,7 +180,10 @@ h1, h2, h3, h4{
 .bodyS_3 {
   color: white;
   margin: 20vh 10%;
-  background-color: #2C2640;
+  background-image: url("../images/bg-pattern-how-we-work-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -214,6 +217,8 @@ h1, h2, h3, h4{
 .footer {
   padding: 10vh 10%;
   background-color: #FAFAFA;
+  background-image: url("../images/bg-pattern-footer-desktop.jpg");
+  background-size: cover;
 }
 .foo_pa{
   position: absolute;
